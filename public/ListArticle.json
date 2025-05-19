@@ -16,14 +16,14 @@
   {
     "username": "web_dev",
     "slug": "react-vs-vue",
-    "img": "src/assets/coding-img.webp",
+    "img": "https://imgs.search.brave.com/O1-1O97SZPobjnbU_fHmM0rXEJSTiM0BQABWR49QYr0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly92ZWls/cmlzZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMDQv/UmVhY3QtSnMtdnMu/LVZ1ZS1Kcy03MzB4/MzY1LnBuZw",
     "title": "React vs Vue.js: Framework Mana yang Harus Dipelajari di 2024?",
     "body": "React (library Facebook) dan Vue (framework progresif) sama-sama populer untuk frontend. React fleksibel dengan ekosistem besar, sementara Vue mudah dipelajari dengan dokumentasi terstruktur. Pilih berdasarkan kebutuhan proyek!"
   },
   {
     "username": "data_ninja",
     "slug": "pandas-python-guide",
-    "img": "src/assets/coding-img.webp",
+    "img": "https://imgs.search.brave.com/MZ_cWcycPz9UBOA9-qWfV0Yzsytadh2SlLZSy493FjA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9kYjBk/Y2U5OC5yb2NrZXRj/ZG4ubWUvZW4vZmls/ZXMvMjAyMi8wMS9p/bGx1X3BhbmRhcy04/Mi0xMDI0eDU2Mi5w/bmc",
     "title": "Panduan Dasar Pandas Python untuk Analisis Data",
     "body": "Pandas adalah library Python untuk manipulasi data. Pelajari cara membaca file CSV/Excel, filtering data dengan `df.loc[]`, dan agregasi menggunakan `groupby()`. Cocok untuk pemula data science!"
   },
