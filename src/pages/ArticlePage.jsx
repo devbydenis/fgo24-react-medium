@@ -15,6 +15,7 @@ function ArticlePage() {
         const data = await response.json();
         console.log(data);
         setData(data);
+        
       } catch (error) {
         console.log(error);
       }
@@ -25,7 +26,6 @@ function ArticlePage() {
 
   return (
     <>
-      <Navbar />
       <div className="px-40 my-20 h-screen">
         {/* <h1 className='text-6xl font-bold'>JUDUL</h1>
         <p className='text-gray-500'>{username}</p>
@@ -35,13 +35,13 @@ function ArticlePage() {
             .filter((article) => article.slug === slug)
             .map((article) => (
               <div key={article.slug}>
-                <h1 className="text-6xl font-bold">{article.title}</h1>
-                <p className="text-gray-500 my-5">{article.username}</p>
+                <img src={article.img} className="w-full" alt="" />
+                <h1 className="text-6xl font-bold mt-5">{article.title}</h1>
+                <p className="text-gray-500 my-5">Written by: {article.username}</p>
                 <p className="text-black">{article.body}</p>
               </div>
             ))}
       </div>
-      <Footer />
     </>
   );
 }

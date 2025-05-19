@@ -8,9 +8,6 @@ function HomePage() {
   const [data, setData] = React.useState([])
   const [searchParam, setSearchParam] = useSearchParams()
   const {register, handleSubmit} = useForm()
-  // const [inputField, setInputField] = React.useState('')
-
-  // console.log(inputField);
 
   useEffect(() => {
     async function fetchData() {
@@ -42,8 +39,7 @@ function HomePage() {
 
   return (
     <>
-      <Navbar />
-      <main className='flex flex-col items-center '>
+      <section className='flex flex-col items-center '>
         <form onSubmit={handleSubmit((data) => setSearchParam({search: data.search}))}>
           <input className='border border-gray-300 rounded p-2' type="text" placeholder='Search' {...register('search')} />
           <button type='submit' className='hidden'>Search</button>
@@ -71,7 +67,7 @@ function HomePage() {
           // ))          
         }
         </ul>
-      </main>
+      </section>
     </>
   )
 }

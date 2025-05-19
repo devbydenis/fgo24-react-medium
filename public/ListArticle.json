@@ -30,7 +30,7 @@
   {
     "username": "backend_master",
     "slug": "rest-api-best-practices",
-    "img": "src/assets/coding-img.webp",
+    "img": "https://imgs.search.brave.com/QWRqkWK0weogkb0ERSBYBb2VfQnpk1YsWqzqOYi76k0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzM1LzA5Lzc0/LzM2MF9GXzIzNTA5/NzQxOV9vVzhYUVRG/eVNrSFRTdkdzYlJT/bjYxVkJSejVteHYx/Yi5qcGc",
     "title": "Best Practices Membangun REST API yang Scalable",
     "body": "Gunakan HTTP methods (GET, POST, PUT, DELETE) dengan benar, terapkan versioning (contoh: `/api/v1/`), dan dokumentasi dengan Swagger. Jangan lupa error handling (404, 500) dan rate limiting untuk keamanan."
   }
