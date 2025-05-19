@@ -8,6 +8,7 @@ function HomePage() {
   const [data, setData] = React.useState([])
   const [searchParam, setSearchParam] = useSearchParams()
   const {register, handleSubmit} = useForm()
+  const filterredData = data.filter(article => article.title.toLowerCase().includes(searchParam.get('search')))
 
   useEffect(() => {
     async function fetchData() {
@@ -45,13 +46,15 @@ function HomePage() {
           <button type='submit' className='hidden'>Search</button>
         </form>
         {
-          searchParam.get("search") && <p>Hasil Pencarian dari <span className='font-bold'>{searchParam.get("search")}</span></p>
+          searchParam.get("search") && <p className='mt-5'>Hasil Pencarian dari <span className='font-bold'>{searchParam.get("search")}</span></p>
+        }
+        {
+          filterredData.length === 0 && searchParam.get("search") && <p className='my-10 h-screen'>Tidak ada hasil pencarian</p>
         }
         <ul className=''>
         {
           searchParam.get("search") 
-            ? data
-                .filter(article => article.title.toLowerCase().includes(searchParam.get("search").toLowerCase()))
+            ? filterredData
                 .map(article => (
                   <li key={article.slug}>
                     <Card {...article} />
