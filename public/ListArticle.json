@@ -1,0 +1,37 @@
+[
+  {
+    "username": "dev_guru",
+    "slug": "python-vs-javascript",
+    "img": "https://imgs.search.brave.com/ZDVV6X4aVOFO7_gZ53wJ8YCvmiIBWx_xda11_2FSU_4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmFjYW5jeXRlY2hu/b2xvZ3kuY29tL2Js/b2cvd3AtY29udGVu/dC91cGxvYWRzLzIw/MjMvMDQvV2h5LUNv/bXBhcmUtUHl0aG9u/LXZzLUphdmFTY3Jp/cHQud2VicA",
+    "title": "Python vs JavaScript: Mana yang Lebih Baik untuk Pemula?",
+    "body": "Python dan JavaScript adalah dua bahasa populer dengan tujuan berbeda. Python cocok untuk data science, sedangkan JavaScript dominan di web development. Artikel ini membandingkan sintaksis, komunitas, dan kasus penggunaan keduanya."
+  },
+  {
+    "username": "code_newbie",
+    "slug": "tips-belajar-algoritma",
+    "img": "https://imgs.search.brave.com/d9xTTWgdQwAIvfGk9cXJJUjZ5EKUNGoOJRZJp3xsiL8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzEzLzYxLzUyLzM5/LzM2MF9GXzEzNjE1/MjM5MTNfS3VOVndu/VGxmNklrYVd3MHNZ/dFlEUE9rVWc0U3FJ/eDIuanBn",
+    "title": "5 Tips Jitu Memahami Algoritma untuk Pemula",
+    "body": "Algoritma adalah pondasi pemrograman. Mulailah dengan mempelajari konsep dasar seperti sorting dan searching. Gunakan visualisasi (contoh: Visualgo) dan praktik langsung dengan platform seperti LeetCode atau HackerRank."
+  },
+  {
+    "username": "web_dev",
+    "slug": "react-vs-vue",
+    "img": "src/assets/coding-img.webp",
+    "title": "React vs Vue.js: Framework Mana yang Harus Dipelajari di 2024?",
+    "body": "React (library Facebook) dan Vue (framework progresif) sama-sama populer untuk frontend. React fleksibel dengan ekosistem besar, sementara Vue mudah dipelajari dengan dokumentasi terstruktur. Pilih berdasarkan kebutuhan proyek!"
+  },
+  {
+    "username": "data_ninja",
+    "slug": "pandas-python-guide",
+    "img": "src/assets/coding-img.webp",
+    "title": "Panduan Dasar Pandas Python untuk Analisis Data",
+    "body": "Pandas adalah library Python untuk manipulasi data. Pelajari cara membaca file CSV/Excel, filtering data dengan `df.loc[]`, dan agregasi menggunakan `groupby()`. Cocok untuk pemula data science!"
+  },
+  {
+    "username": "backend_master",
+    "slug": "rest-api-best-practices",
+    "img": "src/assets/coding-img.webp",
+    "title": "Best Practices Membangun REST API yang Scalable",
+    "body": "Gunakan HTTP methods (GET, POST, PUT, DELETE) dengan benar, terapkan versioning (contoh: `/api/v1/`), dan dokumentasi dengan Swagger. Jangan lupa error handling (404, 500) dan rate limiting untuk keamanan."
+  }
+]
