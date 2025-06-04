@@ -1,4 +1,4 @@
-# FGO24 React Form
+# React Medium
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -59,6 +59,24 @@ yarn dev
 
 The app will be available at `http://localhost:5173` by default.
 
+
+### Docker Deployment
+
+1. **Build the Docker image**
+   ```bash
+   docker build -t image-react-medium .
+   ```
+
+2. **Run the container**
+   ```bash
+   docker run -d --name container-react-medium -p 8080:80 image-react-medium
+   ```
+
+3. **Access the application**
+   Open your browser and go to `http://localhost:8080`
+   
+   
+   
 ## 📱 Responsive Design
 
 The UI is fully responsive, leveraging Tailwind CSS to ensure seamless display across devices. All components are mobile-friendly and adapt to various screen sizes.
